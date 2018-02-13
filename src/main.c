@@ -170,13 +170,7 @@ int main(int argc, const char * argv[]) {
     
     fclose(f);
     
-    while(abc<l){
-        printf("RepeatCMTE_ID: %s\n", repeat1[abc].CMT);
-        printf("RepeatZIP: %s\n", repeat1[abc].ZIP);
-        printf("RepeatAMT: %d\n", repeat1[abc].AMT);
-        printf("RepeatYEAR: %d\n", repeat1[abc].YEAR);
-        abc++;
-    }
+    
     
     return 0;
 }
